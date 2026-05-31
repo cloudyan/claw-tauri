@@ -155,6 +155,34 @@ cargo build
 cargo test
 ```
 
+## 🔗 可参考项目
+
+### 上游 / 生态核心
+
+| 项目 | 技术栈 | 简介 |
+|---|---|---|
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) ⭐375k | TypeScript | **OpenClaw 主项目** —— Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐173k | Python | Hermes Agent —— 与 OpenClaw 互通的 Agent 框架，可成长型 Agent |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ⭐85k | Rust | 跨平台桌面端 All-in-One 助手，支持 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI、Hermes Agent |
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐49k | — | OpenClaw 官方 Skills Registry 精选合集，5400+ 技能分类整理 🦞 |
+
+### 同类桌面端 / Cowork GUI（按热度排序）
+
+| 项目 | 技术栈 | 简介 |
+|---|---|---|
+| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) ⭐27k | Electron / TS | 24/7 Cowork 桌面应用，支持 OpenClaw、Hermes、Claude Code、Codex、OpenCode、Gemini CLI 等 20+ CLI 聚合 |
+| [op7418/CodePilot](https://github.com/op7418/CodePilot) ⭐5.8k | Electron + Next.js | 多模型 AI Agent 桌面端，支持任意 Provider、MCP / Skills 扩展，可手机端控制 |
+| [OpenCoworkAI/open-cowork](https://github.com/OpenCoworkAI/open-cowork) ⭐1.4k | Electron / TS | 开源 Cowork 桌面应用，一键安装 Claude Code、MCP、Skills，沙箱隔离、多模型、飞书 / Slack 集成 |
+| [TesslateAI/OpenSail](https://github.com/TesslateAI/OpenSail) ⭐560 | Python | Codex App / Claude Desktop / Cursor / Cowork 的开源替代，面向 Agentic 软件开发 |
+| [AFK-surf/OpenBridge](https://github.com/AFK-surf/OpenBridge) ⭐398 | Swift | 原生 macOS，Claude Cowork / Codex 的替代品，定位「意图到执行」的安全 Agent 桥梁 |
+| [CoWork-OS/CoWork-OS](https://github.com/CoWork-OS/CoWork-OS) ⭐335 | TypeScript | Local-first 个人 Agentic OS，涵盖编码、知识管理、Web 设计、自动化、Artifacts |
+| [ttnear/Clarc](https://github.com/ttnear/Clarc) ⭐278 | Swift / SwiftUI | 原生 macOS Claude Code GUI 客户端 |
+| [laborany/laborany](https://github.com/laborany/laborany) ⭐66 | TypeScript | 基于 Claude Code 的桌面 AI 工作力平台，**OpenClaw 桌面实现**，支持飞书 / QQ 远程调度、定时任务 🦞 |
+| [yaakua/cc-copilot.com](https://github.com/yaakua/cc-copilot.com) ⭐55 | TypeScript | `@anthropic-ai/claude-code` 的开源桌面 GUI，多 Provider 切换 + 用量追踪 |
+| [Glsme/agent-monitor](https://github.com/Glsme/agent-monitor) ⭐52 | **Tauri 2 + React** | Claude Code Agent 团队 GUI 监控（像素风办公室视图），技术栈与本项目最接近 |
+
+> **本项目差异化定位**：OpenClaw Tauri 强调 **Gateway sidecar 内置 + JSON-RPC 协议契约 + Tauri 原生轻量**，将 Gateway 进程的生命周期与健康熔断收敛在 Rust 后端，前端只通过协议层通信。
+
 ## 🗺️ Roadmap
 
 - [ ] Windows / Linux 系统托盘适配
