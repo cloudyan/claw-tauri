@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "chat": "聊天",
+    "sessions": "会话",
+    "channels": "渠道",
+    "settings": "设置"
+  },
+  "status": {
+    "connected": "已连接",
+    "connecting": "连接中",
+    "disconnected": "未连接",
+    "error": "连接错误"
+  },
+  "time": {
+    "just_now": "刚刚",
+    "minutes_ago": " 分钟前",
+    "hours_ago": " 小时前"
+  },
+  "sidebar": {
+    "sessions": "会话列表",
+    "new_session": "新建会话",
+    "no_sessions": "暂无会话",
+    "empty_session": "空会话"
+  },
+  "chat": {
+    "input_placeholder": "输入消息...",
+    "send": "发送",
+    "stop": "停止",
+    "newline": "换行",
+    "hint": "OpenClaw Desktop v0.1.0",
+    "attach_file": "添加附件"
+  },
+  "settings": {
+    "title": "设置",
+    "gateway": "Gateway 配置",
+    "port": "监听端口",
+    "gateway_url": "WebSocket 地址",
+    "auto_start": "启动时自动运行 Gateway",
+    "start": "启动",
+    "stop": "停止",
+    "restart": "重启",
+    "appearance": "外观",
+    "theme": "主题",
+    "theme_dark": "深色",
+    "theme_light": "浅色",
+    "theme_system": "跟随系统",
+    "language": "语言",
+    "notifications": "通知",
+    "enable_notifications": "启用桌面通知",
+    "minimize_to_tray": "关闭时最小化到系统托盘",
+    "reset": "恢复默认设置"
+  },
+  "sessions": {
+    "title": "会话管理",
+    "new": "新建会话",
+    "search_placeholder": "搜索会话...",
+    "empty": "暂无会话",
+    "no_results": "未找到匹配的会话",
+    "empty_session": "空会话",
+    "messages": "条消息",
+    "delete": "删除会话"
+  },
+  "channels": {
+    "title": "渠道管理",
+    "refresh": "刷新",
+    "search_placeholder": "搜索渠道...",
+    "empty": "暂无可用渠道",
+    "subscribe": "订阅",
+    "unsubscribe": "取消订阅"
+  },
+  "setup": {
+    "subtitle": "桌面客户端配置向导",
+    "gateway_config": "配置 Gateway",
+    "gateway_desc": "设置 OpenClaw Gateway 的连接参数。Gateway 是 OpenClaw 的核心服务，负责管理 AI 模型连接和消息路由。",
+    "connecting": "正在连接 Gateway...",
+    "connected": "连接成功",
+    "connected_desc": "已成功连接到 Gateway，可以开始使用了。",
+    "connect_failed": "连接失败",
+    "connect_failed_hint": "请检查 Gateway 是否已启动，以及连接参数是否正确。你也可以稍后在设置中重新配置。",
+    "complete": "设置完成",
+    "complete_desc": "OpenClaw 已准备就绪。你可以随时在设置中修改配置。",
+    "back": "上一步",
+    "next": "下一步",
+    "skip": "跳过",
+    "start": "开始使用"
+  }
+}

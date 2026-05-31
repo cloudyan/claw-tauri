@@ -1,0 +1,99 @@
+# ===== 依赖目录 =====
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+jspm_packages/
+
+# ===== 构建产物 =====
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# ===== Vite 缓存 =====
+.vite/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# ===== TypeScript =====
+*.tsbuildinfo
+.tsbuildinfo
+
+# ===== Tauri 构建产物 =====
+src-tauri/target/
+src-tauri/gen/
+src-tauri/WixTools/
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== 运行时数据 =====
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ===== 测试覆盖率 =====
+coverage/
+*.lcov
+.nyc_output/
+
+# ===== 环境变量 =====
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== 缓存目录 =====
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.npm/
+.pnpm-store/
+
+# ===== 编辑器与 IDE =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== 操作系统 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== AI / 临时文件 =====
+.claude/
+.cursor/
+.aider*
+*.tmp
+*.temp
+
+# ===== 其他 =====
+*.tgz
+.history/

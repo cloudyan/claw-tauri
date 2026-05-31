@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "chat": "Chat",
+    "sessions": "Sessions",
+    "channels": "Channels",
+    "settings": "Settings"
+  },
+  "status": {
+    "connected": "Connected",
+    "connecting": "Connecting",
+    "disconnected": "Disconnected",
+    "error": "Connection Error"
+  },
+  "time": {
+    "just_now": "just now",
+    "minutes_ago": "m ago",
+    "hours_ago": "h ago"
+  },
+  "sidebar": {
+    "sessions": "Sessions",
+    "new_session": "New Session",
+    "no_sessions": "No sessions yet",
+    "empty_session": "Empty session"
+  },
+  "chat": {
+    "input_placeholder": "Type a message...",
+    "send": "Send",
+    "stop": "Stop",
+    "newline": "New line",
+    "hint": "OpenClaw Desktop v0.1.0",
+    "attach_file": "Attach file"
+  },
+  "settings": {
+    "title": "Settings",
+    "gateway": "Gateway Configuration",
+    "port": "Listen Port",
+    "gateway_url": "WebSocket URL",
+    "auto_start": "Auto-start Gateway on launch",
+    "start": "Start",
+    "stop": "Stop",
+    "restart": "Restart",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "theme_dark": "Dark",
+    "theme_light": "Light",
+    "theme_system": "System",
+    "language": "Language",
+    "notifications": "Notifications",
+    "enable_notifications": "Enable desktop notifications",
+    "minimize_to_tray": "Minimize to system tray on close",
+    "reset": "Reset to Defaults"
+  },
+  "sessions": {
+    "title": "Sessions",
+    "new": "New Session",
+    "search_placeholder": "Search sessions...",
+    "empty": "No sessions yet",
+    "no_results": "No matching sessions found",
+    "empty_session": "Empty session",
+    "messages": "messages",
+    "delete": "Delete session"
+  },
+  "channels": {
+    "title": "Channels",
+    "refresh": "Refresh",
+    "search_placeholder": "Search channels...",
+    "empty": "No channels available",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe"
+  },
+  "setup": {
+    "subtitle": "Desktop Client Setup Wizard",
+    "gateway_config": "Configure Gateway",
+    "gateway_desc": "Set up the connection parameters for OpenClaw Gateway. Gateway is the core service that manages AI model connections and message routing.",
+    "connecting": "Connecting to Gateway...",
+    "connected": "Connected",
+    "connected_desc": "Successfully connected to Gateway. You're ready to go.",
+    "connect_failed": "Connection Failed",
+    "connect_failed_hint": "Please check if Gateway is running and the connection parameters are correct. You can reconfigure later in Settings.",
+    "complete": "Setup Complete",
+    "complete_desc": "OpenClaw is ready. You can modify settings anytime.",
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip",
+    "start": "Get Started"
+  }
+}
